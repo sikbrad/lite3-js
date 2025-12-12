@@ -1,0 +1,42 @@
+{
+  "name": "lite3",
+  "version": "1.0.0",
+  "description": "A JSON-Compatible Zero-Copy Serialization Format for JavaScript - inspired by fastserial/lite3",
+  "type": "module",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.cjs",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "example": "node examples/basic-usage.js"
+  },
+  "keywords": [
+    "serialization",
+    "binary",
+    "json",
+    "zero-copy",
+    "b-tree",
+    "lite3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gq/lite3-js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
